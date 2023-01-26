@@ -1,0 +1,119 @@
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 2%;
+    padding: 2%;
+    border: 0;
+  }
+  
+  header {
+    background-color: rgb(36, 7, 37);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-left: 1%;
+    margin-bottom: 40px;
+    width: 90%;
+  }
+  
+  .link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 700;
+    padding: 10px 10px;
+    border-radius: 2px;
+    margin-left: 0px;
+  
+  }
+  
+  #about {
+    text-align: justify;
+    margin-bottom: 40px;
+    line-height: 30px;
+    text-transform: capitalize;
+  }
+  
+  nav-tog {
+    text-align: center;
+    display: flex;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section h1 {
+    margin-top: 0;
+  }
+  
+  section img {
+    max-width: 100%;
+    margin-right: 20px;
+  }
+  
+  form label {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .contact{
+      text-decoration: none;
+      margin-bottom: 40px;
+      background-image:linear-gradient(orange, tomato);
+      color: white;
+      font-weight: 600;
+      padding: 5px 5px;
+      border-radius: 3px;
+      margin-top: 600px;
+  }
+  
+  #fuck{
+      margin-left: 13%;
+      margin-bottom: 10%;
+  }
+  .hasu{
+      margin-bottom: 60px;
+      margin-top: 50px;
+  }
+  
+   /* Media query for screens smaller than 600px */
+   @media (max-width: 600px) {
+      header {
+        font-size: 20px;
+      }
+      main {
+        margin: 0;
+      }
+  }
+  
+  #company{
+      margin-bottom: 80px;
+  }
+  .ek-mono{
+      margin-bottom: -50px;
+  }
+  
+  #naso{
+      margin-bottom: 20px;
+  }
+  
+  footer p{
+      text-align: center;
+  }
+  
