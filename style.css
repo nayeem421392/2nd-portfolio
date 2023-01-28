@@ -1,11 +1,11 @@
-
+/* Body */
 body {
     font-family: "Poppins", sans-serif;
-    margin: 2%;
+    margin: 0;
     padding: 2%;
     border: 0;
   }
-  
+  /* Heading-nav*/
   header {
     background-color: rgb(36, 7, 37);
     color: rgb(255, 255, 255);
@@ -14,25 +14,7 @@ body {
     margin-bottom: 40px;
     width: 90%;
   }
-  
-  .link-button {
-    text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
-    color: white;
-    font-weight: 700;
-    padding: 10px 10px;
-    border-radius: 2px;
-    margin-left: 0px;
-  
-  }
-  
-  #about {
-    text-align: justify;
-    margin-bottom: 40px;
-    line-height: 30px;
-    text-transform: capitalize;
-  }
-  
+
   nav-tog {
     text-align: center;
     display: flex;
@@ -53,7 +35,27 @@ body {
     color: #fff;
     text-decoration: none;
   }
+
+  /* main{About-link-button} */
+  #about {
+    text-align: justify;
+    margin-bottom: 40px;
+    line-height: 30px;
+    text-transform: capitalize;
+  }
   
+  .link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 700;
+    padding: 10px 10px;
+    border-radius: 2px;
+    margin-left: 0px;
+  
+  }
+  
+  /* main{h1,img,h2} */
   main {
     padding: 20px;
   }
@@ -66,12 +68,10 @@ body {
     max-width: 100%;
     margin-right: 20px;
   }
-  
-  form label {
-    display: flex;
-    margin-bottom: 10px;
-  }
-  
+  .ek-mono{
+    margin-bottom: -50px;
+}
+  /* contact-form-company */
   .contact{
       text-decoration: none;
       margin-bottom: 40px;
@@ -82,37 +82,16 @@ body {
       border-radius: 3px;
       margin-top: 600px;
   }
-  
-  #fuck{
-      margin-left: 13%;
-      margin-bottom: 10%;
-  }
-  .hasu{
-      margin-bottom: 60px;
-      margin-top: 50px;
-  }
-  
-   /* Media query for screens smaller than 600px */
-   @media (max-width: 600px) {
-      header {
-        font-size: 20px;
-      }
-      main {
-        margin: 0;
-      }
-  }
-  
+   form label {
+   display: flex;
+   margin-bottom: 10px;
+ }
+
   #company{
-      margin-bottom: 80px;
-  }
-  .ek-mono{
-      margin-bottom: -50px;
+      margin-bottom: 70px;
   }
   
-  #naso{
-      margin-bottom: 20px;
-  }
-  
+  /* footer */
   footer p{
       text-align: center;
   }
